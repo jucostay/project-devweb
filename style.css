@@ -224,7 +224,10 @@ nav.show .menu {
     font-size: 10px;
     padding: 5px;
     border-radius: 50%;
-    border: 2px solid #ffa8e2;
+}
+
+.img-menu {
+    width: 170%;
 }
 
 nav.show .menu ul {
@@ -313,12 +316,19 @@ nav.show div.icon-close {
     background: white;
 }
 
+.text-aboutme {
+    font-size: 1em;
+    font-weight: normal;
+}
+
 #about .container {
     margin: 0;
 }
 
 #about .image {
     position: relative;
+    width: 80%;
+    margin: auto;
 }
 
 #about .image::before {
@@ -342,8 +352,10 @@ nav.show div.icon-close {
 }
 
 #about .text {
+    width: 75%;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+    margin-bottom: 3em;
 }
 
 
