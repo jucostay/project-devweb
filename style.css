@@ -277,11 +277,26 @@ nav.show div.icon-close {
 #home .image::before {
     content: '';
     height: 100%;
-    width: 100%;
+    width: 60%;
     background: var(--base-color-second);
     position: absolute;
-    top: -16.8%;
-    left: 16.7%;
+    top: -7.3%;
+    left: -15%;
+    z-index: 0;
+}
+
+#home .image-imobzi{
+    position: relative;
+}
+
+#home .image-imobzi::before {
+    content: '';
+    height: 100%;
+    width: 60%;
+    background: var(--base-color-second);
+    position: absolute;
+    top: -7.3%;
+    left: -15%;
     z-index: 0;
 }
 
@@ -337,8 +352,8 @@ nav.show div.icon-close {
     width: 100%;
     background: var(--base-color-second);
     position: absolute;
-    top: -8.3%;
-    left: -33%;
+    top: -4.3%;
+    left: -15%;
     z-index: 0;
 }
 
@@ -389,6 +404,25 @@ nav.show div.icon-close {
     margin-bottom: 0.75rem;
 }
 
+
+.imobzi-desk{
+
+}
+
+.imobzi-mob{
+    width: 60%;
+}
+
+.imobzi-desk::before {
+    content: '';
+    height: 100%;
+    width: 60%;
+    background: var(--base-color-second);
+    position: absolute;
+    top: -4.3%;
+    left: -5%;
+    z-index: 0; 
+}
 
 /*====  DEPOIMENTS SECTION ============================ */
 
@@ -648,7 +682,7 @@ footer .social a:hover {
     }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 1200px) {
      :root {
         --title-font-size: 2.25rem;
         --subtitle-font-size: 1.125rem;
